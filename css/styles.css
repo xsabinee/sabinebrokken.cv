@@ -3,6 +3,8 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://use.typekit.net/lwp3lqx.css');
+
 /* Styles for the body */
 
 body {
@@ -15,10 +17,17 @@ body {
 
 .resume-header {
     background-color: #CBC3E3;
+	font-family: "cofo-kabeltouw-solid-0", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .resume-main {
 	background-color: #fffefc;
+}
+
+.subtext-header {
+	color:darkblue;
 }
 
 .resume-aside {
